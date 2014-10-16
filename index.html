@@ -1,0 +1,323 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Shiva Chandra Kumar K</title>
+  <meta name="author" content="Shiva Chandra Kumar K">
+  
+  <meta name="description" content="It talks about the technical stuff i have come across.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  
+  <meta property="og:site_name" content="Shiva Chandra Kumar K"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  <link href="/favicon.png" rel="icon">
+
+  <link rel="alternate" href="/atom.xml" title="Shiva Chandra Kumar K" type="application/atom+xml">
+
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/print.css" media="print" type="text/css">
+
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+
+  <script src="/js/scripts.js"></script>
+
+  
+  
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config(
+    {
+      tex2jax: {inlineMath: [['$','$'], ['\(','\)']]},
+      TeX: {equationNumbers: {autoNumber: ["AMS"], useLabelIds: true}},
+    }
+  );
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+  
+</head>
+
+
+<body>
+    <div class="container">
+      <div class="left-col">
+        <div class="intrude-less">
+          <header id="header" class="inner">
+            <div class="profilepic">
+  <script src="/js/md5.js"></script>
+  <script type="text/javascript">
+    $(function(){
+	$('.profilepic').append(
+          "<img src='http://www.gravatar.com/avatar/"
+          + MD5("ksck23@gmail.com")
+          + "?s=160' alt='Profile Picture' style='width: 160px;' />");
+    });
+  </script>
+</div><!-- profilepic -->
+<h1><a href="/">Shiva Chandra Kumar K</a></h1>
+<nav id="main-nav">
+  <ul class="main">
+    
+      <li>
+      <a href="/about">About</a>
+      </li>
+    
+  </ul>
+  
+  <section class="aboutme">
+    <p>
+      It talks about the technical stuff i have come across.
+    </p>
+  </section>
+  
+</nav><!-- main-nav -->
+<nav id="sub-nav">
+  <div class="social">
+    
+      <a class="google" href="http://plus.google.com/+ShivaChandraKumarK"
+         title="Google+">Google+</a>
+    
+    
+    
+      <a class="github" href="http://github.com/ksck23"
+         title="Github">Github</a>
+    
+    
+        <a class="rss" href="/atom.xml" title="RSS">RSS</a>
+    
+    
+      <a class="linkedin" href="http://www.linkedin.com/in/ksck23"
+        title="Linkedin">Linkedin</a>
+      
+    
+      <a class="facebook" href="http://facebook.com/ShivaChandraKumarK"
+        title="Facebook">Facebook</a>
+    
+    
+    
+  </div>
+</nav><!-- sub-nav -->
+<nav id="widget-nav">
+  <div class="widgets">
+    
+      
+
+    
+  </div>
+</nav><!-- widget-nav -->
+
+          <header>
+        </div><!-- intrude-less -->
+      </div><!-- left-col -->
+      <div class="mid-col">
+        <div class="mid-col-container">
+	    <div id="content" class="inner"><div itemscope itemtype="http://schema.org/Blog">
+
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  
+	<div class="meta">
+          
+<div class="date">
+
+<time datetime="2013-11-25T09:43:07.000Z"
+      
+      data-updated="true"
+       itemprop="datePublished">
+  Nov 25 2013
+</time>
+
+
+
+
+
+</div>
+
+          
+
+
+          
+	</div>
+        <h1 class="title" itemprop="name">
+          <a href="/2013/11/25/setup-your-personal-markdown-blog-using-hexo,-deployed-to-github/" itemprop="url">
+            Setup your personal markdown blog using hexo, deployed to github</a>
+        </h1>
+        <div class="entry-content" itemprop="articleBody">
+          
+            <hr>
+<p>To setup your personal programming blog (based on markdown) using hexo, you can follow these steps :   </p>
+<ul>
+<li><h3 id="Installing_Git,_Node_and_Hexo"><strong>Installing Git, Node and Hexo</strong></h3>
+<p>This is a pretty straight forward step so i will assume that you have them installed.<br>The <a href="http://zespia.tw/hexo/docs/index.html" target="_blank" rel="external">documentation here</a> can be helful to you for the same.</p>
+</li>
+<li><h3 id="Initialize_you_blog"><strong>Initialize you blog</strong></h3>
+<p>To setup you blog, you need to create an initial hexo project.   </p>
+</li>
+</ul>
+<figure class="highlight bash"><figcaption><span>Initialize hexo project</span><a href="http://zespia.tw/hexo/docs/setup.html" target="_blank" rel="external">Source Article</a></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ hexo init &lt;project-name&gt; <span class="comment"># If you installed hexo globally</span></div><div class="line">$ node_modules/hexo/bin/hexo init &lt;project-name&gt; <span class="comment"># If you installed hexo locally</span></div><div class="line"><span class="comment"># Example $ hexo init ksck23</span></div></pre></td></tr></table></figure>
+
+
+<blockquote>
+<p>After this, you should see a &lt;project-name&gt; folder with the following structure.<br>.<br>├── _config.yml<br>├── package.json<br>├── scaffolds<br>├&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── draft.md<br>├&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── page.md<br>├&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── photo.md<br>├&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── post.md<br>├── source<br>├&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── _drafts<br>├&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── _posts<br>├── themes<br>├&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── …<br>└── README.md</p>
+</blockquote>
+<ul>
+<li><h3 id="Configure_your_blog"><strong>Configure your blog</strong></h3>
+The configuration file is a straight forward yaml file located at <strong>&lt;project-folder&gt;/_config.yml</strong><br>You can follow the sample code written below to configure yours.   </li>
+</ul>
+<figure class="highlight yaml"><figcaption><span>Configure hexo project</span><a href="http://zespia.tw/hexo/docs/configuration.html" target="_blank" rel="external">Source Article</a></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div></pre></td><td class="code"><pre><div class="line"><span class="preprocessor"># Hexo Configuration</span></div><div class="line"><span class="preprocessor"># Site</span></div><div class="line"><span class="label">title:</span> Hackers Hub</div><div class="line"><span class="label">subtitle:</span> A hackers blog</div><div class="line"><span class="label">description:</span></div><div class="line"><span class="label">author:</span> Shiva Chandra Kumar K</div><div class="line"><span class="label">email:</span> ksck23@gmail.com</div><div class="line"><span class="preprocessor"># follow IETF format codes given here</span></div><div class="line"><span class="preprocessor"># http://www.w3.org/International/articles/language-tags</span></div><div class="line"><span class="label">language:</span> en</div><div class="line"><span class="preprocessor"># URL</span></div><div class="line"><span class="label">url:</span> http://&ltblog-name&gt.github.io</div><div class="line"><span class="label">root:</span> /</div><div class="line"><span class="label">permalink:</span> :year/:month/:day/:title/</div><div class="line"><span class="label">tag_dir:</span> tags</div><div class="line"><span class="label">archive_dir:</span> archives</div><div class="line"><span class="label">category_dir:</span> categories</div><div class="line"><span class="label">code_dir:</span> downloads/code</div><div class="line"><span class="preprocessor"># Writing</span></div><div class="line"><span class="label">new_post_name:</span> :title.md <span class="preprocessor"># File name of new posts</span></div><div class="line"><span class="label">default_layout:</span> post</div><div class="line"><span class="label">auto_spacing:</span> false <span class="preprocessor"># Add spaces between asian characters and western characters</span></div><div class="line"><span class="label">titlecase:</span> false <span class="preprocessor"># Transform title into titlecase</span></div><div class="line"><span class="label">external_link:</span> true <span class="preprocessor"># Open external links in new tab</span></div><div class="line"><span class="label">max_open_file:</span> <span class="number">100</span></div><div class="line"><span class="label">multi_thread:</span> true</div><div class="line"><span class="label">filename_case:</span> <span class="number">0</span></div><div class="line"><span class="label">render_drafts:</span> false</div><div class="line"><span class="label">highlight:</span></div><div class="line">  enable: true</div><div class="line">  line_number: true</div><div class="line">  tab_replace:</div><div class="line"><span class="preprocessor"># Category & Tag</span></div><div class="line"><span class="label">default_category:</span> uncategorized</div><div class="line"><span class="label">category_map:</span></div><div class="line"><span class="label">tag_map:</span></div><div class="line"><span class="preprocessor"># Archives</span></div><div class="line"><span class="preprocessor">## 2: Enable pagination</span></div><div class="line"><span class="preprocessor">## 1: Disable pagination</span></div><div class="line"><span class="preprocessor">## 0: Fully Disable</span></div><div class="line"><span class="label">archive:</span> <span class="number">2</span></div><div class="line"><span class="label">category:</span> <span class="number">2</span></div><div class="line"><span class="label">tag:</span> <span class="number">2</span></div><div class="line"><span class="preprocessor"># Server</span></div><div class="line"><span class="preprocessor">## Hexo uses Connect as a server</span></div><div class="line"><span class="preprocessor">## You can customize the logger format as defined in</span></div><div class="line"><span class="preprocessor">## http://www.senchalabs.org/connect/logger.html</span></div><div class="line"><span class="label">port:</span> <span class="number">4000</span></div><div class="line"><span class="label">logger:</span> false</div><div class="line"><span class="label">logger_format:</span></div><div class="line"><span class="preprocessor"># Date / Time format</span></div><div class="line"><span class="preprocessor">## Hexo uses Moment.js to parse and display date</span></div><div class="line"><span class="preprocessor">## You can customize the date format as defined in</span></div><div class="line"><span class="preprocessor">## http://momentjs.com/docs/#/displaying/format/</span></div><div class="line"><span class="label">date_format:</span> MMM D YYYY</div><div class="line"><span class="label">time_format:</span> H:mm:ss</div><div class="line"><span class="preprocessor"># Pagination</span></div><div class="line"><span class="preprocessor">## Set per_page to 0 to disable pagination</span></div><div class="line"><span class="label">per_page:</span> <span class="number">10</span></div><div class="line"><span class="label">pagination_dir:</span> page</div><div class="line"><span class="preprocessor"># Disqus</span></div><div class="line"><span class="label">disqus_shortname:</span></div><div class="line"><span class="preprocessor"># Extensions</span></div><div class="line"><span class="preprocessor">## Plugins: https://github.com/tommy351/hexo/wiki/Plugins</span></div><div class="line"><span class="label">plugins:</span></div><div class="line"><span class="preprocessor"># Add this line to generate an atom feed for your blog</span></div><div class="line">- hexo-generator-feed</div><div class="line"><span class="preprocessor">## Themes: https://github.com/tommy351/hexo/wiki/Themes</span></div><div class="line"><span class="preprocessor"># Add this line to choose a custom theme for your blog</span></div><div class="line"><span class="label">theme:</span> greyshade</div><div class="line"><span class="label">exclude_generator:</span></div><div class="line"><span class="preprocessor"># Deployment</span></div><div class="line"><span class="preprocessor">## Docs: http://zespia.tw/hexo/docs/deploy.html</span></div><div class="line"><span class="label">deploy:</span></div><div class="line">  type: github <span class="preprocessor"># To deploy you blog to github</span></div><div class="line">  repository: https://github.com/&lt;github-username&gt;/&lt;github-username&gt;.github.io.git</div><div class="line">  <span class="preprocessor">#Example : https://github.com/ksck23/ksck23.github.io.git</span></div></pre></td></tr></table></figure>
+
+<ul>
+<li><h3 id="Installing_a_theme"><strong>Installing a theme</strong></h3>
+You can skip this step, if the theme you configured was the default <strong>light</strong> theme.<br>In other case, run the following :   </li>
+</ul>
+<figure class="highlight bash"><figcaption><span>Get your hexo theme</span><a href="http://zespia.tw/hexo/docs/setup.html" target="_blank" rel="external">Source Article</a></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">cd</span> &lt;project-folder&gt;/themes</div><div class="line">$ git clone &lt;git-url-of-theme&gt; &lt;theme-name&gt;</div><div class="line"><span class="comment"># Example $ git clone https://github.com/nuklly/hexo-theme-greyshade.git greyshade</span></div></pre></td></tr></table></figure>
+
+
+<p>Once the cloning is done, ensure that the theme is configured in the <strong>&lt;project-folder&gt;/_config.yml</strong>.<br>Any theme specific configuration can be set in the <strong>&lt;project-folder&gt;/themes/&lt;theme-name&gt;/_config.yml</strong> file</p>
+<ul>
+<li><h3 id="Installing_a_plugin"><strong>Installing a plugin</strong></h3>
+You can install a plugin in a simple step :   </li>
+</ul>
+<figure class="highlight bash"><figcaption><span>Get a plugin</span><a href="https://github.com/tommy351/hexo/wiki/Plugins" target="_blank" rel="external">Source Article</a></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ npm install &lt;plugin-name&gt; --save</div><div class="line"><span class="comment"># Example $ npm install hexo-generator-feed --save</span></div></pre></td></tr></table></figure>
+
+
+<p>Once the installation is done, ensure that the plugin is configured in the <strong>&lt;project-folder&gt;/_config.yml</strong>.</p>
+<ul>
+<li><h3 id="Create_a_blog_post"><strong>Create a blog post</strong></h3>
+You can create a blog post :   </li>
+</ul>
+<figure class="highlight bash"><figcaption><span>Create a post </span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ hexo new &lt;post-title&gt; <span class="comment"># If you installed hexo globally</span></div><div class="line">$ node_modules/hexo/bin/hexo new &lt;post-title&gt; <span class="comment"># If you installed hexo locally</span></div><div class="line"><span class="comment"># Example $ hexo new "Hello World"</span></div></pre></td></tr></table></figure>
+
+
+<p>After you create your post, you should see a file named <strong>&lt;post-title&gt;</strong> in <strong>&lt;project-folder&gt;/source/_posts</strong> folder.<br>You can edit the file to write your post data in markdown. The <a href="http://daringfireball.net/projects/markdown/syntax" target="_blank" rel="external">documentation</a> on markdown syntax could help you write better markdown code. A nice <a href="http://markable.in/editor/" target="_blank" rel="external">online markdown editor</a> called markable can help you validate your markdown code.   </p>
+<ul>
+<li><h3 id="To_generate_the_static_files"><strong>To generate the static files</strong></h3>
+You need to generate the static HTML/CSS/JS files for your blog post :   </li>
+</ul>
+<figure class="highlight bash"><figcaption><span>Generate Static files </span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ hexo generate <span class="comment"># If you installed hexo globally</span></div><div class="line">$ node_modules/hexo/bin/hexo generate <span class="comment"># If you installed hexo locally</span></div><div class="line"><span class="comment"># Example $ hexo generate</span></div></pre></td></tr></table></figure>
+
+
+
+<ul>
+<li><h3 id="To_run_a_server_locally"><strong>To run a server locally</strong></h3>
+You can run a local server to checkout your blog. It will start based on the config parameters given in the <strong>&lt;project-folder&gt;/_config.yml</strong> file :   </li>
+</ul>
+<figure class="highlight bash"><figcaption><span>Start a local server </span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ hexo server <span class="comment"># If you installed hexo globally</span></div><div class="line">$ node_modules/hexo/bin/hexo server <span class="comment"># If you installed hexo locally</span></div><div class="line"><span class="comment"># Example $ hexo server</span></div></pre></td></tr></table></figure>
+
+
+
+<ul>
+<li><h3 id="To_deploy_your_blog_to_github_repository"><strong>To deploy your blog to github repository</strong></h3>
+You need to create a repository named <strong>&lt;github-username&gt;.github.io</strong> in github before this step.<br>Also ensure that the github repository url is configured properly in the <strong>&lt;project-folder&gt;/_config.yml</strong><br>Then do :   </li>
+</ul>
+<figure class="highlight bash"><figcaption><span>Deploy code to github repository </span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy <span class="comment"># If you installed hexo globally</span></div><div class="line">$ node_modules/hexo/bin/hexo deploy <span class="comment"># If you installed hexo locally</span></div><div class="line"><span class="comment"># Example $ hexo deploy</span></div></pre></td></tr></table></figure>
+
+
+<p>Now, you should be able to see your blog static files in the <strong>&lt;github-username&gt;.github.io</strong> repository. After 5-10 mins you should be able to see your blog hosted at <a href="http://&lt;github-username&gt;.github.io" target="_blank" rel="external">http://&lt;github-username&gt;.github.io</a> and your blogs atom feed at <a href="http://&lt;github-username&gt;.github.io/atom.xml" target="_blank" rel="external">http://&lt;github-username&gt;.github.io/atom.xml</a>   </p>
+<h3 id="That’s_it-_Happy_Blogging_hackers_!!!!!!">That’s it. Happy Blogging hackers !!!!!!</h3>
+
+          
+        </div>
+
+
+</article>
+
+
+
+
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  
+	<div class="meta">
+          
+<div class="date">
+
+<time datetime="2013-11-24T13:12:33.000Z"
+      
+      data-updated="true"
+       itemprop="datePublished">
+  Nov 24 2013
+</time>
+
+
+
+
+
+</div>
+
+          
+
+
+          
+	</div>
+        <h1 class="title" itemprop="name">
+          <a href="/2013/11/24/welcome-to-my-blog/" itemprop="url">
+            Welcome to my blog</a>
+        </h1>
+        <div class="entry-content" itemprop="articleBody">
+          
+            <p><strong>Hello Guys,</strong>   </p>
+<p>This is a technical blog that talks about all the coding challenges that i have come across till date.<br>I hope you would like it.</p>
+<p>Here is a sample code snippet:</p>
+<figure class="highlight javascript"><figcaption><span>A sample code snippet</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"><span class="keyword">var</span> myData = {</div><div class="line">	name: <span class="string">"Shiva Chandra Kumar K"</span>,</div><div class="line">	activities: [<span class="string">"Coding"</span>, <span class="string">"Basketball"</span>],</div><div class="line">	email: <span class="string">"ksck23@gmail.com"</span></div><div class="line">};</div><div class="line"></div><div class="line"><span class="keyword">var</span> findMe = <span class="function"><span class="keyword">function</span> <span class="params">(data)</span> </span>{</div><div class="line">	<span class="built_in">console</span>.log(<span class="string">"My Name : "</span>, data.name);</div><div class="line">	<span class="built_in">console</span>.log(<span class="string">"My Activities : "</span>, data.activities);</div><div class="line">	<span class="built_in">console</span>.log(<span class="string">"My E-Mail : "</span>, data.email);</div><div class="line">};</div><div class="line"></div><div class="line">findMe(myData);</div></pre></td></tr></table></figure>
+
+<p>Thanks,<br><strong>Shiva K</strong></p>
+
+          
+        </div>
+
+
+</article>
+
+
+
+
+</div>
+
+<nav id="pagenavi">
+    
+    
+    <div class="center">
+      <a href="archives">Blog Archives</a>
+    </div>
+</nav>
+</div>
+	</div>
+        <footer id="footer" class="inner">
+          Copyright © 2013 - Shiva Chandra Kumar K - Powered by <a href="https://github.com/tommy351/hexo">Hexo</a><br>
+- Ported theme <a href="https://github.com/nuklly/hexo-theme-greyshade">GreyShade</a> -
+        </footer>
+        
+<script src="/js/slash.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+
+
+      </div><!-- mid-col -->
+    </div><!-- container -->
+</body>
+</html>
